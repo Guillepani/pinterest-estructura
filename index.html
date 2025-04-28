@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="descripción" content="Galería de imagenes estilo Pinterest" />
+    <meta name="keywords" content="imagenes, galería, fotos, Pinterest" />
+    <meta name="author" content="Guille" />
+    <link rel="cannonical" href="#" />
+    <title>HTML Pinterest</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="#logo">
+          <img
+            src="#logo-pinterest.png"
+            alt="Logo de Pinterest"
+            loading="lazy"
+          />
+        </a>
+        <ul>
+          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="#explorar">Explorar</a></li>
+          <li><a href="#crear">Crear</a></li>
+        </ul>
+        <form action="#" method="get">
+          <input type="text" placeholder="Buscar" name="buscar" />
+          <button type="submit">Buscar</button>
+        </form>
+      </nav>
+    </header>
+    <main>
+      <section id="galeria">
+        <!--Dentro de la sección de galeria meto article para cada imagen, ya que considero que cada una es un contenido independiente-->
+        <article class="card">
+          <img src="#gatosushi.png" alt="Gato comiendo sushi" />
+        </article>
+        <article class="card">
+          <img src="#zapatillasnike.png" alt="Nike AirForce" />
+        </article>
+        <article class="card">
+          <img src="#tiburón.png" alt="Tiburón blanco" />
+        </article>
+        <!--Aquí añadiría tantos article con imágenes como quiera-->
+      </section>
+    </main>
+    <footer>
+      <p>
+        Estructura html creada por Guille para "replicar" Pinterest (ejercicio
+        de arquitectura de información)
+      </p>
+    </footer>
+  </body>
+</html>
